@@ -9,3 +9,9 @@ WHERE first_name = 'Nancy' AND last_name = 'Thomas'
 SELECT description
 FROM film
 WHERE title = 'Outlaw Hanky'
+
+-- Get the phone number for the customer who lives
+-- at 259 Ipoh Drive
+SELECT phone
+FROM address
+WHERE address = '259 Ipoh Drive'
