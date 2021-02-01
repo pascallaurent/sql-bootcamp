@@ -15,3 +15,8 @@ WHERE title = 'Outlaw Hanky'
 SELECT phone
 FROM address
 WHERE address = '259 Ipoh Drive'
+
+-- How many payment transactions were greater than $5.00
+SELECT count(amount)
+FROM payment
+WHERE amount > 5.00;
